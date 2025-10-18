@@ -1,15 +1,15 @@
-# 📚 Taller de Programación Avanzada en C++
+# Taller de Programación Avanzada en C++
 
 [![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este repositorio contiene la solución completa de los **5 ejercicios** del Taller de Programación Avanzada, implementados en C++. Cada ejercicio aborda conceptos fundamentales de programación, estructuras de datos y algoritmos numéricos.
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 taller-programacion-avanzada/
@@ -24,7 +24,7 @@ taller-programacion-avanzada/
 
 ---
 
-## 🚀 Requisitos Previos
+## Requisitos Previos
 
 Para compilar y ejecutar estos programas necesitas:
 
@@ -53,13 +53,13 @@ xcode-select --install
 
 ---
 
-## 📝 Ejercicios Implementados
+##  Ejercicios Implementados
 
-### **Ejercicio 1: Operaciones Aritméticas Básicas** ➕➖✖️➗
+### **Ejercicio 1: Operaciones Aritméticas Básicas** 
 
 **Objetivo:** Solicitar dos números enteros y realizar operaciones aritméticas básicas con manejo de división por cero.
 
-#### 📖 Descripción del Código
+####  Descripción del Código
 
 ```cpp
 #include <iostream>
@@ -72,7 +72,7 @@ double float1, float2;
 - `num1, num2`: Almacenan los números enteros ingresados
 - `float1, float2`: Conversión a double para división exacta
 
-#### 🔍 Desglose del Código
+#### Desglose del Código
 
 ```cpp
 cout << "Ingrese el primer numero: ";
@@ -103,14 +103,14 @@ if (float2 != 0) {
 - **Validación crítica**: Verifica que el divisor no sea cero antes de dividir
 - **Manejo de error**: Muestra mensaje apropiado si se intenta dividir por cero
 
-#### ✅ Cumplimiento del Requisito
+####  Cumplimiento del Requisito
 
 ✔️ Solicita dos números enteros  
 ✔️ Realiza suma, resta, multiplicación y división  
 ✔️ Maneja adecuadamente la división por cero  
 ✔️ Muestra resultados formateados
 
-#### 💻 Cómo Ejecutar
+####  Cómo Ejecutar
 
 ```bash
 # Compilar
@@ -121,7 +121,7 @@ g++ ejercicio-1.cpp -o ejercicio1
 ejercicio1.exe        # Windows
 ```
 
-#### 📊 Ejemplo de Uso
+####  Ejemplo de Uso
 
 ```
 Ingrese el primer numero: 10
@@ -138,7 +138,7 @@ Division de 10 entre 3: 3.33333
 
 **Objetivo:** Encontrar el valor máximo y mínimo en un arreglo de números decimales con sus posiciones.
 
-#### 📖 Descripción del Código
+#### Descripción del Código
 
 ```cpp
 #include <iostream>
@@ -150,7 +150,7 @@ Division de 10 entre 3: 3.33333
 - `limits`: Proporciona valores límite para tipos numéricos
 - `string`: Permite manipulación de cadenas para procesar entrada
 
-#### 🔍 Desglose del Código
+####  Desglose del Código
 
 ```cpp
 int n;
@@ -210,7 +210,7 @@ for (int i = 0; i < n; ++i) {
 ✔️ Encuentra el mínimo y su posición  
 ✔️ Maneja formato con comas y puntos
 
-#### 💻 Cómo Ejecutar
+####  Cómo Ejecutar
 
 ```bash
 # Compilar
@@ -221,7 +221,7 @@ g++ ejercicio-2.cpp -o ejercicio2
 ejercicio2.exe        # Windows
 ```
 
-#### 📊 Ejemplo de Uso
+####  Ejemplo de Uso
 
 ```
 Ingrese la cantidad de numeros decimales: 5
@@ -253,7 +253,7 @@ string cadena;
 **Variable global:**
 - `cadena`: Almacena la cadena de caracteres ingresada por el usuario
 
-#### 🔍 Desglose del Código
+####  Desglose del Código
 
 ```cpp
 cout << "Ingrese una cadena de caracteres: ";
@@ -277,7 +277,7 @@ for (char c : cadena) {
 - **Comparación múltiple**: Verifica si el carácter es una de las 5 vocales
 - **Contador**: Incrementa por cada vocal encontrada
 
-#### ✅ Cumplimiento del Requisito
+####  Cumplimiento del Requisito
 
 ✔️ Lee una cadena completa (con espacios)  
 ✔️ Cuenta todas las vocales (mayúsculas y minúsculas)  
@@ -306,11 +306,11 @@ El numero de vocales en la cadena es: 10
 
 ---
 
-### **Ejercicio 4: Cálculo de Normas Vectoriales** 📐
+### **Ejercicio 4: Cálculo de Normas Vectoriales** 
 
 **Objetivo:** Calcular la norma L2 (euclidiana) y la norma L∞ (infinito) de un vector de números decimales.
 
-#### 📖 Descripción del Código
+####  Descripción del Código
 
 ```cpp
 #include <iostream>
@@ -465,7 +465,7 @@ int main() {
 ✔️ Incluye validación de entrada  
 ✔️ Proporciona interpretación de resultados
 
-#### 💻 Cómo Ejecutar
+####  Cómo Ejecutar
 
 ```bash
 # Compilar
@@ -476,7 +476,7 @@ g++ Ejercicio4.cpp -o ejercicio4
 ejercicio4.exe        # Windows
 ```
 
-#### 📊 Ejemplo de Uso
+####  Ejemplo de Uso
 
 ```
 === CALCULO DE NORMAS L2 Y Linfinito ===
@@ -822,7 +822,7 @@ g++ ejercicio5.cpp -o ejercicio5
 ejercicio5.exe        # Windows
 ```
 
-#### 📊 Ejemplo de Uso
+#### Ejemplo de Uso
 
 ```
 === INVERSIÓN DE MATRIZ ===
